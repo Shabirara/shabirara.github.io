@@ -45,9 +45,9 @@
 
 /* For Smartphones */
 @media all and (max-width: 670px) { 
-  .menu-icon {
+  #menu {
     display: block;
-    visibility:visible;
+    visibility: visible;
   }
   
   .skill-wrapper {

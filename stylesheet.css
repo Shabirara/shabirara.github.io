@@ -67,7 +67,7 @@ a {
   background-color: rgba(255, 255, 255, 0.3);
 }
 
-.menu-icon {
+#menu {
   color: white;
   float: right;
   font-size: 25px;
