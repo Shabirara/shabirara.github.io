@@ -48,14 +48,12 @@ body.light-mode {
   }
   
   .skills.light-mode {
-    border-left: 1px solid black;
     color: black;
     opacity: 0.7;
   }
   
   .text-contents.light-mode {
-    color: #7c00ad;
-    opacity: 0.7;
+    color: white;
   }
   
   .message-wrapper.light-mode {
@@ -69,3 +67,4 @@ body.light-mode {
     font-weight:bolder;
   }
 
+  
