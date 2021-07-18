@@ -11,11 +11,6 @@ body {
   background: black;
 }
 
-body.light-mode {
-  background-color: white;
-  color: black;
-}
-
 .clear {
   clear: left;
 }
@@ -30,16 +25,10 @@ body.light-mode {
 header {
   height: 65px;
   width: 100%;
-  background-color: black;
-  color: white;
-  position :fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
   top: 0;
   z-index: 10;
-}
-
-header.light-mode {
-  background-color: white;
-  color:black
 }
 
 a {
@@ -48,6 +37,7 @@ a {
 
 .header-left {
   float: left;
+  color: white;
 }
 
 .header-left p {
@@ -68,6 +58,7 @@ a {
   line-height: 65px;
   padding: 0 25px;
   transition: all 0.5s;
+  text-decoration: none;
 }
 
 .header-right a:hover {
@@ -87,7 +78,7 @@ a {
   color: white;
   text-align: center;
   padding-bottom: 10px;
-  margin-bottom: 50px;
+  margin-bottom: 200px;
 }
 
 .top-wrapper h1 {
@@ -136,22 +127,23 @@ a {
 .heading {
   margin-top: 50px;
   padding: 30px;
-  color: #5f5d60;
+  color: white;
+  opacity: 0.7;
 }
 
-.skill {
+.skills {
   text-align: center;
   width: 100%;
   padding: 10px;
+  color: white;
+  border-left: 1px solid white;
 }
 
 .skill-icon p {
-  border-left: 1px solid #eee;
-  font-size: 30;
+  font-size: 30px;
   top: 44%;
   width: 100%;
-  color: white;
-  padding: 10;
+  padding: 10px;
   
 }
 
@@ -159,13 +151,13 @@ a {
   width: 80%;
   display: inline-block;
   font-size: 15px;
-  color: #b3aeb5;
 }
 
 .message-wrapper {
   float: right;
   padding: 0 auto;
   background: rgba(0, 0, 0, 0.5);
+  color: white;
   width: 20%;
   height: 100%;
 }
@@ -183,9 +175,8 @@ a {
   width: 100%;
 }
 
-.message-wrapper h2, p {
-  color: white;
-  opacity: 0.5;
+.message-wrapper h2, .message-wrapper p {
+  opacity: 0.7;
   padding: 10px 0 0 10px;
   font-weight: normal;
 }
@@ -196,15 +187,10 @@ a {
 }
 
 footer p {
-  color: #b3aeb5;
   opacity: 0.5;
   letter-spacing: 4px;
   font-weight: normal;
   font-size: 12px;
-}
-
-footer  {
-  text-decoration: none;
 }
 
 footer {
@@ -215,5 +201,6 @@ footer {
   bottom: 0;
   text-align: center;
   width: 100%;
+  color: #ffffff;
 }
 
