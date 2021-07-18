@@ -45,12 +45,10 @@
   
   .top-wrapper {
     text-align: center;
+    height: 100%;
   }
-  .header-right {
+  .header-right a {
     display: none;
-  }
-  .menu-icon {
-    display: block;
   }
   
   .top-wrapper h1 {

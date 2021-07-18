@@ -67,11 +67,9 @@ a {
   background-color: rgba(255, 255, 255, 0.3);
 }
 
-.menu-icon {
+.header-btn {
   float: right;
-  font-size: 25px;
-  padding: 21px 0; 
-  display: none;
+  color: white;
 }
 
 .top-wrapper {
@@ -186,6 +184,13 @@ iframe {
 .social {
   padding: 10px;
   text-align: center;
+  transition: all 0.5s;
+}
+
+.insta-me:hover, .email:hover, .insta-ninu:hover {
+  opacity: 0.3;
+  position: relative;
+  top: 7px;
 }
 
 .message {
