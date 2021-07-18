@@ -42,4 +42,3 @@ function handleToggleBtn (){
       messageWrapper.classList.toggle("light-mode");
       footer.classList.toggle("light-mode");
 }
-
