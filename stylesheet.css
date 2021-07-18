@@ -67,6 +67,15 @@ a {
   background-color: rgba(255, 255, 255, 0.3);
 }
 
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px;
+  display: none;
+  visibility: hidden;
+}
+
 .header-btn {
   float: right;
   color: white;
@@ -178,11 +187,14 @@ iframe {
   background: rgba(0, 0, 0, 0.5);
   color: white;
   width: 20%;
+  padding: 20px 5px;
+  margin-top: 200px;
+  text-align: center;
+  }
 }
 
 .social {
   padding: 10px;
-  text-align: center;
   transition: all 0.5s;
 }
 
@@ -194,12 +206,6 @@ iframe {
 
 .message {
   width: 100%;
-}
-
-.message-wrapper {
-  padding: 20px 5px;
-  margin-top: 200px;
-  height: 100%;
 }
 
 .message-wrapper h2, .message-wrapper p {

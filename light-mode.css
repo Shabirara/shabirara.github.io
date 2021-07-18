@@ -37,6 +37,10 @@ body.light-mode {
     cursor: pointer;
 }
 
+#menu.light-mode {
+  color: black;
+}
+
   .top-wrapper.light-mode {
     background-color: white;
     color: black;

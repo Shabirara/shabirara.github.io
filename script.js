@@ -4,6 +4,7 @@ let headerLeft = document.querySelector(".header-left");
 let headerLink = document.querySelector("#headerLink");
 let headerLinkOne = document.querySelector("#headerLink1");
 let a = document.querySelector("a")
+let menu = document.querySelector("#menu")
 let topWrapper = document.querySelector(".top-wrapper");
 let contentWrapper = document.querySelector(".content-wrapper");
 let heading = document.querySelector(".heading");
@@ -38,6 +39,7 @@ function handleToggleBtn (){
       headerLeft.classList.toggle("light-mode");
       headerLink.classList.toggle("light-mode");
       headerLinkOne.classList.toggle("light-mode");
+      menu.classList.toggle("light-mode");
       topWrapper.classList.toggle("light-mode");
       contentWrapper.classList.toggle("light-mode");
       heading.classList.toggle("light-mode");

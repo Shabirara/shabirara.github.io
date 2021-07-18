@@ -9,6 +9,10 @@
 
 /* For Tablets */
 @media all and (max-width: 1000px) { 
+  .menu-icon {
+    display: none;
+  }
+  
   .skill-wrapper {
     width : 100%;
   }
@@ -41,6 +45,11 @@
 
 /* For Smartphones */
 @media all and (max-width: 670px) { 
+  .menu-icon {
+    display: block;
+    visibility:visible;
+  }
+  
   .skill-wrapper {
     width: 100%;
   }
