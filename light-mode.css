@@ -8,7 +8,11 @@ body.light-mode {
   header.light-mode {
     background-color: rgba(255, 255, 255, 0.5);
   }
-  
+
+  #headerLink.light-mode, #headerLink1.light-mode {
+    color: rgba(0, 0, 0, 0.9);
+  }
+
   .header-left.light-mode {
     color: black;
     opacity: 0.7;
@@ -39,7 +43,7 @@ body.light-mode {
   }
   
   .content-wrapper.light-mode {
-    background-image: linear-gradient( white, #ffcfdf, #7e9e9d, white);
+    background-image: linear-gradient( white, #ffcfdf, #f7b386, white);
   }
   
   .heading.light-mode {

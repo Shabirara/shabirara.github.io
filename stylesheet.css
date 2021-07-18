@@ -133,12 +133,12 @@ iframe {
 }
 
 .skill-wrapper {
+  float: left;
   padding-bottom: 0px;
   padding-left: 5%;
   padding-right: 5%;
   text-align: center;
   width: 80%;
-  float: left;
 }
 
 .heading {
@@ -147,25 +147,29 @@ iframe {
   color: rgba(255, 255, 255, 0.9);
 }
 
+.heading h2 {
+  font-weight: normal;
+}
+
 .skills {
   text-align: center;
   width: 100%;
-  padding: 10px;
-  color: rgba(255, 255, 255, 0.9);
+  padding: 0 10px;
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .skill-icon {
   font-size: 30px;
   top: 44%;
   width: 100%;
-  padding: 10px;
+  padding: 0 10px;
   border-left: 1px solid white;
 }
 
 .text-contents {
   width: 80%;
   display: inline-block;
-  font-size: 15px;
+  font-size: 18px;
 }
 
 .message-wrapper {
@@ -174,10 +178,6 @@ iframe {
   background: rgba(0, 0, 0, 0.5);
   color: white;
   width: 20%;
-}
-
-.message-wrapper iframe {
-  width: 100%;
 }
 
 .social {
@@ -196,15 +196,27 @@ iframe {
   width: 100%;
 }
 
+.message-wrapper {
+  padding: 20px 5px;
+  margin-top: 200px;
+  height: 100%;
+}
+
 .message-wrapper h2, .message-wrapper p {
   opacity: 0.7;
-  padding: 10px 0 0 10px;
+  padding: 0 10px;
   font-weight: normal;
 }
 
 .message-wrapper input, textarea {
   width: 90%;
   margin: 0 0 0 10px;
+}
+
+.send:active {
+  position: relative;
+  top: 1px;
+  opacity: 0.8;
 }
 
 footer p {
