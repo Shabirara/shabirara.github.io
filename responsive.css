@@ -1,4 +1,11 @@
+.html {
+  min-height: -webkit-fill-available;
+}
 
+.top-wrapper {
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
+}
 
 /* For Tablets */
 @media all and (max-width: 1000px) { 
@@ -45,8 +52,8 @@
   
   .top-wrapper {
     text-align: center;
-    height: 100%;
   }
+
   .header-right a {
     display: none;
   }
