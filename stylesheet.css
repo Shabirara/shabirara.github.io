@@ -73,6 +73,7 @@ a {
   font-size: 25px;
   padding: 21px;
   display: none;
+  visibility: hidden;
 }
 
 .header-btn {

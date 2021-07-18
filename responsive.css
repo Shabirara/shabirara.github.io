@@ -47,6 +47,7 @@
 @media all and (max-width: 670px) { 
   .menu-icon {
     display: block;
+    visibility:visible;
   }
   
   .skill-wrapper {
