@@ -1,0 +1,76 @@
+
+
+/* For Tablets */
+@media all and (max-width: 1000px) { 
+  .skill-wrapper {
+    width : 100%;
+  }
+  
+  .skill {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  
+  .top-wrapper h1 {
+    font-size: 100px;
+  }
+  
+  .heading h2 {
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  .message-wrapper {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .social {
+    display: inline-block;
+    padding: 0;
+  }
+
+}
+
+/* For Smartphones */
+@media all and (max-width: 670px) { 
+  .skill-wrapper {
+    width: 100%;
+  }
+  
+  .skill {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .top-wrapper {
+    text-align: center;
+  }
+  .header-right {
+    display: none;
+  }
+  .menu-icon {
+    display: block;
+  }
+  
+  .top-wrapper h1 {
+    font-size: 60px;
+    line-height: 36px;
+  }
+  
+  .top-wrapper h2 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  
+  .top-wrapper p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  
+  .message-wrapper {
+    width: 100%;
+    text-align: center;
+  }
+  
+}

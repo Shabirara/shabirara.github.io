@@ -1,0 +1,206 @@
+* {
+  box-sizing: border-box;
+}
+
+button {
+  margin-top: 100px;
+}
+
+body {
+  font-family: "Perpetua";
+  background: black;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 2%;
+  margin: 0 auto;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header-left {
+  float: left;
+  color: white;
+}
+
+.header-left p {
+  line-height: 65px;
+  padding: 0 25px;
+  letter-spacing: 5px;
+  transition: all 0.5s;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  display: block;
+  float: left;
+  line-height: 65px;
+  padding: 0 25px;
+  transition: all 0.5s;
+  text-decoration: none;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.menu-icon {
+  float: right;
+  font-size: 25px;
+  padding: 21px 0; 
+  display: none;
+}
+
+.top-wrapper {
+  background-color: black;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding-bottom: 10px;
+  margin-bottom: 200px;
+}
+
+.top-wrapper h1 {
+  opacity: 0.7;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+  font-size: 100px;
+}
+
+.top-wrapper h2 {
+  opacity: 0.7;
+}
+
+.top-wrapper span {
+  color: f45540;
+  opacity: 1;
+}  
+
+.top-wrapper p {
+  opacity: 0.7;
+  margin-bottom: 3px;
+  font-style: italic;
+}
+
+.top-wrapper iframe {
+  width: 50%;
+  height: 50%;
+}
+
+.content-wrapper {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  background-image: linear-gradient(black, #020024, #230332, black);
+}
+
+.skill-wrapper {
+  padding-bottom: 0px;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: center;
+  width: 80%;
+  float: left;
+}
+
+.heading {
+  margin-top: 50px;
+  padding: 30px;
+  color: white;
+  opacity: 0.7;
+}
+
+.skills {
+  text-align: center;
+  width: 100%;
+  padding: 10px;
+  color: white;
+  border-left: 1px solid white;
+}
+
+.skill-icon p {
+  font-size: 30px;
+  top: 44%;
+  width: 100%;
+  padding: 10px;
+  
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  font-size: 15px;
+}
+
+.message-wrapper {
+  float: right;
+  padding: 0 auto;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  width: 20%;
+  height: 100%;
+}
+
+.message-wrapper iframe {
+  width: 100%;
+}
+
+.social {
+  padding: 10px;
+  text-align: center;
+}
+
+.message {
+  width: 100%;
+}
+
+.message-wrapper h2, .message-wrapper p {
+  opacity: 0.7;
+  padding: 10px 0 0 10px;
+  font-weight: normal;
+}
+
+.message-wrapper input, textarea {
+  width: 90%;
+  margin: 0 0 0 10px;
+}
+
+footer p {
+  opacity: 0.5;
+  letter-spacing: 4px;
+  font-weight: normal;
+  font-size: 12px;
+}
+
+footer {
+  margin-top: 100px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-color: black;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  color: #ffffff;
+}
+
