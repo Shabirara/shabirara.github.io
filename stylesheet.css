@@ -7,6 +7,12 @@ button {
   position: relative;
 }
 
+@font-face {
+  font-family: "Perpetua";
+  src: url("perpetua"); /* IE9 Compat Modes */
+  src: url("perpeta.ttf")  format("truetype"), /* Safari, Android, iOS */
+}
+
 body {
   font-family: "Perpetua";
   background: black;
