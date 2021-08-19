@@ -196,7 +196,6 @@ iframe {
   padding: 20px 5px;
   margin-top: 200px;
   text-align: center;
-  }
 }
 
 .social {
@@ -214,7 +213,7 @@ iframe {
   width: 100%;
 }
 
-.message-wrapper h2, .message-wrapper p {
+.message-wrapper h2, .message-wrapper label {
   opacity: 0.7;
   padding: 0 10px;
   font-weight: normal;
@@ -222,7 +221,12 @@ iframe {
 
 .message-wrapper input, textarea {
   width: 90%;
-  margin: 0 0 0 10px;
+  margin: 5px 0 10px 0;
+}
+
+label {
+  font-family: Perpetua;
+  font-size: small;
 }
 
 .send:active {

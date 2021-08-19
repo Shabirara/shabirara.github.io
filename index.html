@@ -104,14 +104,16 @@
         </div>  
         
           <div class="message">
-            <h2>Message me!</h2>
-            <p>How would you like me to address you?</p>
-            <input placeholder="Name">
-            <p>Your email address:</p>
-            <input placeholder="Email">
-            <p>Your message:</p>
-            <textarea placeholder="Message"></textarea>
-            <input type="submit" value="Send!" class="send">
+            <form onsubmit="return validateForm()">
+              <h2>Message me!</h2>
+              <label for="nama">How would you like me to address you?</label>
+              <input id="nama" placeholder="Name"><br>
+              <label for="gmail">Your email address:</label>
+              <input id="gmail" placeholder="Email"><br>
+              <label for="pesan">Your message:</label>
+              <textarea id="pesan" placeholder="Message"></textarea><br>
+              <input type="submit" value="Send!" class="send">
+            </form>  
           </div>
           <div class="clear"></div>
         </div>
